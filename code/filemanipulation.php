@@ -238,6 +238,9 @@ class FileManipulation {
 			'c'=>'text/x-csrc',
 			'py'=>'text/x-python',
 			'pl'=>'text/x-perl',
+			'info'=>'text/plain',
+			'module'=>'application/x-httpd-php-open',
+			'install'=>'application/x-httpd-php-open',
 			);
 		$cmMime=$mimes[$ext];
 		Output::add("content",$content);
